@@ -1,0 +1,83 @@
+
+body{
+    background-color: #FFDAFF;
+    font-family: 'Lato', sans-serif;
+
+}
+.text-center{
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    color: crimson;
+}
+h1:hover{
+    color:aqua;
+}
+h2{
+    font-size: 40px;
+    margin: 20px;
+}
+h3{
+    font-size: 30px;
+    font-style: italic;
+    margin: 40px;
+}
+h3:hover{
+    background-color: pink;
+}
+.size-img{
+    width: 700px;
+    margin: auto;
+    display: block;
+}
+#primer-blog{
+    background-color: palevioletred;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+#imagen-monterrey{
+    width: 400px;
+}
+
+.header{
+    background-color:purple;
+    height: 120px;
+    width: auto;
+    position:relative;
+}
+.header img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.header .lista-menu{
+    list-style: none;
+    display:flex;
+    position: absolute;
+    top: 30px;
+}
+.lista-menu li{
+    display: inline-block;
+    margin-left: 50px;
+}
+.lista-menu li a{
+    text-decoration: none;
+    color:darkgreen;
+    font-size: 35px;
+}
+.header .lista-menu li:hover{
+   background-color: chartreuse;
+}
+
+
+/*
+ul li{
+    
+}
+*/
+
